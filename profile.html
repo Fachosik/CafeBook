@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeBook - Profil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5ea2d6b0b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="zdjecia/logo.png" class="logo">
+                </a>
+            <ul>
+                <li><img src="zdjecia/notification.png"></li>
+                <li><img src="zdjecia/inbox.png"></li>
+                <li><img src="zdjecia/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="zdjecia/search.png">
+                <input type="text" placeholder="Wyszukaj">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="zdjecia/profile-pic.png">
+            </div>
+
+        </div>
+    
+
+    <!---settings-menu--->
+
+    <div class="settings-menu">
+
+        <div id="dark-btn">
+            <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+            <div class="user-profile">
+                <img src="zdjecia/profile-pic.png">
+                <div>
+                    <p>Damian Dalak</p>
+                    <a href="#">Zobacz Profil</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="zdjecia/feedback.png">
+                <div>
+                    <p>Zgłoszenia</p>
+                    <a href="#">Zgłoś błędy lub coś niewłaściwego.</a>
+                </div>
+            </div>  
+            <hr> 
+            <div class="settings-links">
+                <img src="zdjecia/setting.png" class="settings-icon">
+                <a href="#">Ustawienia i Prywatność <img src="zdjecia/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="zdjecia/help.png" class="settings-icon">
+                <a href="#">Pomoc i Wsparcie <img src="zdjecia/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="zdjecia/display.png" class="settings-icon">
+                <a href="#">Wyświetlanie i Dostępność <img src="zdjecia/arrow.png" width="10px"></a>
+            </div>
+
+            <div class="settings-links">
+                <img src="zdjecia/logout.png" class="settings-icon">
+                <a href="#">Wyloguj się <img src="zdjecia/arrow.png" width="10px"></a>
+            </div>
+
+
+
+        </div>
+        
+        
+    </div>
+</nav>
+
+   <!-----------Profil-------------> 
+
+   <div class="profile-container">
+       <img src="zdjecia/cover.png" class="cover-img">
+       <div class="profile-details">
+           <div class="pd-left">
+            <div class="pd-row">
+                <img src="zdjecia/profile-pic.png" class="pd-image">
+                <div>
+                    <h3>Damian Dalak</h3>
+                    <p>344 Znajomych</p>
+                    <img src="zdjecia/member-1.png">
+                    <img src="zdjecia/member-2.png">
+                    <img src="zdjecia/member-3.png">
+                    <img src="zdjecia/member-4.png">
+
+                </div>
+            </div>
+            
+
+           </div>
+           <div class="pd-right">
+               
+                <button type="button"><img src="zdjecia/upload.png">Dodaj do relacji</button>
+                <button type="button"><img src="zdjecia/arrow.png">Edytuj Profil</button>
+                <br>
+                <a href=""><img src="zdjecia/more.png"></a>
+           </div>
+       </div>
+
+       <div class="profile-info">
+           <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Prezentacja</h3>
+                    <p class="intro-text">❤️</p>
+                    <hr>
+                    <ul>
+                        <li><img src="zdjecia/profile-study.png"> Uczęszcza do: Zespół Szkół Elektryczno-Elektronicznych (ZSEE/TME)</li>
+                        <li><img src="zdjecia/profile-study.png"> Uczęszczał do: PSP Mierzyn</li>
+                        <li><img src="zdjecia/profile-home.png"> Mieszka w: Szczecin, Polska</li>
+                        <li><img src="zdjecia/profile-location.png"> Pochodzi z: Mierzyn, Polska</li>
+                    </ul>
+
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                     <h3>Zdjęcia</h3>
+                     <a href="">Zobacz Wszystkie</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="zdjecia/photo1.png"></div>
+                        <div><img src="zdjecia/photo2.png"></div>
+                        <div><img src="zdjecia/photo3.png"></div>
+                        <div><img src="zdjecia/photo4.png"></div>
+                        <div><img src="zdjecia/photo5.png"></div>
+                        <div><img src="zdjecia/photo6.png"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                     <h3>Znajomi</h3>
+                     <a href="">Zobacz Wszystkich</a>
+                    </div>
+                    <p>344</p>
+                    <div class="friends-box">
+                        <div><img src="zdjecia/member-1.png"><p> Andrzej Mikłowik</p></div>
+                        <div><img src="zdjecia/member-2.png"><p> Jolanta Staszic</p></div>
+                        <div><img src="zdjecia/member-3.png"><p> Mirosław Zołej</p></div>
+                        <div><img src="zdjecia/member-4.png"><p> Agnieszka Jałąć</p></div>
+                        <div><img src="zdjecia/member-5.png"><p> Samanta Kureń</p></div>
+                        <div><img src="zdjecia/member-6.png"><p> Alina Skowiła</p></div>
+                        <div><img src="zdjecia/member-7.png"><p> Jakub Skorwin</p></div>
+                        <div><img src="zdjecia/member-8.png"><p> Hanna Michaelson</p></div>
+                        <div><img src="zdjecia/member-9.png"><p> Samia Sarin</p></div>
+                        
+                    </div>
+                </div>
+
+           </div>
+
+           <div class="post-col"> 
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="zdjecia/profile-pic.png">
+                    <div>
+                        <p>Damian Dalak</p>
+                        <small>Publiczne <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Jak się dzisiaj czujesz, Damian?"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="zdjecia/live-video.png">Na Żywo</a>
+                        <a href="#"><img src="zdjecia/photo.png">Zdjęcia/Filmy</a>
+                        <a href="#"><img src="zdjecia/feeling.png">Humor/Aktywność</a>
+                    </div>
+
+
+                </div>
+
+           </div>
+
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="zdjecia/member-6.png">
+                <div>
+                    <p>Alina Skowiła</p>
+                    <span>18 Luty 2022, 2:44 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Zobaczie mój nowy <span>Blog</span> na temat kawy jest bardzo ciekawy! 
+                <a href="#Kawa">Kliknij Tutaj, by zobaczyć blog.</a></p>
+                <img src="zdjecia/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="zdjecia/like-blue.png">47</div>
+                        <div><img src="zdjecia/comments.png">12</div>
+                        <div><img src="zdjecia/share.png">3</div>
+                    </div>
+
+
+                </div>
+
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="zdjecia/member-7.png">
+                <div>
+                    <p>Jakub Skorwin</p>
+                    <span>18 Luty 2022, 12:11pm pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Cześć ludzie jak sie dziś macie? Tutaj moje zdjęcie, które dziś rano zrobiłem!
+                <img src="zdjecia/feed-image-2.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="zdjecia/like-blue.png">232</div>
+                        <div><img src="zdjecia/comments.png">332</div>
+                        <div><img src="zdjecia/share.png">145</div>
+                    </div>
+
+
+                </div>
+
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                <img src="zdjecia/member-9.png">
+                <div>
+                    <p>Samia Sarin</p>
+                    <span>17 Luty 2022, 11:44 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Dzisiejszego wieczoru udało mi się "pstryknąć" takie cudowne zdjęcie!. Sami zobaczcie.
+                <a href="#Noc"></a></p>
+                <img src="zdjecia/feed-image-3.jpg" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="zdjecia/like.png">50</div>
+                        <div><img src="zdjecia/comments.png">16</div>
+                        <div><img src="zdjecia/share.png">1</div>
+                    </div>
+
+
+                </div>
+
+        </div>
+
+       </div>
+
+       
+
+
+
+
+
+
+
+   </div>
+
+
+    
+<div class="footer">
+    <p>&copy; Copyright 2022 Damian Dalak</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
